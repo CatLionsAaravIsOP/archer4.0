@@ -39,7 +39,7 @@ class PlayerArrow {
         if (this.body.velocity.x > 0 && this.body.position.x > 400) {
           var position = [this.body.position.x, this.body.position.y];
           this.trajectory.push(position);
-  
+        }
 
       /****write a correct code to add for loop and to display small dots
            at all the positions stored in trajectory array
@@ -48,7 +48,7 @@ class PlayerArrow {
             fill("white");
             ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
           }
-        }
+        
   
   }
 }
